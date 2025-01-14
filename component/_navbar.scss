@@ -1,0 +1,50 @@
+header {
+  background-color: rgba(0, 1, 32, 0.8);
+  backdrop-filter: blur(20px);
+  position: fixed;
+  width: 100%;
+  nav {
+    img {
+      width: 225px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+    }
+    ul {
+      display: flex;
+      gap: 85px;
+      li {
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          font-weight: 500;
+          position: relative;
+          transition: 0.4s;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -13px;
+            left: 50%;
+            transform: translate(-50%);
+            width: 0px;
+            height: 0px;
+            border-radius: 50%;
+            background-color: #a300d3;
+            transition: 0.4s;
+          }
+          &:hover::after {
+            width: 6px;
+            height: 6px;
+          }
+
+          &:hover {
+            color: #5700e2;
+          }
+        }
+      }
+    }
+    .hireUs {
+      @include primary_button;
+    }
+  }
+}

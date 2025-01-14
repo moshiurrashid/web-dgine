@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap");
+hr {
+  border: 1px solid #5700e2;
+  opacity: 1;
+}
+main,
+body {
+  position: relative;
+  z-index: -1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Bai Jamjuree", serif;
+  color: white;
+  font-size: 17px;
+}
+@mixin primary_button {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 65px;
+  border: none;
+  border-radius: 0px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+}
+@mixin secondary_button {
+  color: transparent;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  background-clip: text;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 65px;
+  border-radius: 0px;
+  background-color: transparent;
+  border: 2px solid #5700e2;
+}
+@mixin card_design {
+  position: relative;
+  border-radius: 0 0 0 50px;
+  padding-left: 35px;
+  background: linear-gradient(42deg, #0e112a, #1d2252);
+
+  img {
+    padding-top: 56px;
+    width: 60px;
+    padding-bottom: 40px;
+  }
+  h3 {
+    color: transparent;
+    background: linear-gradient(90deg, #5700e2, #a300d3);
+    background-clip: text;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 10px;
+  }
+  p {
+    font-size: 17px;
+    color: #e2e8f0;
+    font-weight: 500;
+    padding-bottom: 30px;
+    width: 556px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background: linear-gradient(45deg, #5700e2, #a300d3);
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(
+      45deg,
+      #a300d3 0%,
+      #5700e2 50%,
+      #000120 50%,
+      #000120 100%
+    );
+    border-radius: 0 0 0 15px;
+    height: 50px;
+    width: 50px;
+  }
+}

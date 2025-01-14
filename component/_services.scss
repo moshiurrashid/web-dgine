@@ -1,0 +1,61 @@
+#services {
+  background-color: #000120;
+  position: relative;
+  z-index: -999;
+
+  .servicesWrapper {
+    position: relative;
+    padding-top: 115px;
+    .left {
+      position: sticky;
+      top: 150px;
+
+      h2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        width: 556px;
+        span {
+          color: #b586ff;
+        }
+        hr {
+          width: 560px;
+          border: 1px solid #5700e2;
+        }
+        p {
+          color: #e2e8f0;
+          font-size: 20px;
+        }
+      }
+    }
+    .right {
+      justify-content: right;
+      padding-bottom: 200px;
+      .card1 {
+        @include card_design;
+        position: sticky;
+        top: 150px;
+      }
+      .card2 {
+        @include card_design;
+        position: sticky;
+        top: 200px;
+      }
+      .card3 {
+        @include card_design;
+        position: sticky;
+        top: 250px;
+      }
+      .card4 {
+        @include card_design;
+        position: sticky;
+        top: 300px;
+      }
+      .card5 {
+        @include card_design;
+        position: sticky;
+        top: 350px;
+      }
+    }
+  }
+}
