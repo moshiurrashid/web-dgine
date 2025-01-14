@@ -22,6 +22,7 @@
           span {
             color: transparent;
             background: linear-gradient(90deg, #5700e2, #a300d3);
+            backdrop-filter: blur(100px);
             background-clip: text;
           }
         }

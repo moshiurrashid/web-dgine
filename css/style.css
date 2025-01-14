@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap");
-hr {
-  border: 1px solid #5700e2;
-  opacity: 1;
-}
-
 main,
 body {
   position: relative;
@@ -104,6 +99,8 @@ header nav .hireUs {
 #banner .bannerWrapper .row .left h1 span {
   color: transparent;
   background: linear-gradient(90deg, #5700e2, #a300d3);
+  -webkit-backdrop-filter: blur(100px);
+          backdrop-filter: blur(100px);
   -webkit-background-clip: text;
           background-clip: text;
 }
@@ -143,31 +140,34 @@ header nav .hireUs {
 #services .servicesWrapper {
   position: relative;
   padding-top: 115px;
+  padding-bottom: 200px;
 }
-#services .servicesWrapper .left {
+#services .servicesWrapper .left .title_left {
   position: sticky;
   top: 150px;
 }
-#services .servicesWrapper .left h2 {
+#services .servicesWrapper .left .title_left h2 {
   color: white;
   font-size: 40px;
   font-weight: 700;
   width: 556px;
 }
-#services .servicesWrapper .left h2 span {
+#services .servicesWrapper .left .title_left h2 span {
   color: #b586ff;
 }
-#services .servicesWrapper .left h2 hr {
+#services .servicesWrapper .left .title_left hr {
   width: 560px;
-  border: 1px solid #5700e2;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  opacity: 1;
 }
-#services .servicesWrapper .left h2 p {
+#services .servicesWrapper .left .title_left p {
   color: #e2e8f0;
-  font-size: 20px;
+  font-size: 17px;
 }
 #services .servicesWrapper .right {
   justify-content: right;
-  padding-bottom: 200px;
 }
 #services .servicesWrapper .right .card1 {
   position: relative;
@@ -417,4 +417,176 @@ header nav .hireUs {
 
 #tools {
   background-color: #0e112c;
+}
+#tools .wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#tools .wrapper h2 {
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  width: 745px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+#tools .wrapper h2 span {
+  color: #b586ff;
+}
+#tools .wrapper hr {
+  width: 680px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  opacity: 1;
+  margin: 0 auto;
+}
+#tools .wrapper p {
+  padding-top: 13px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+  text-align: center;
+  color: #e2e8f0;
+  font-size: 17px;
+  width: 640px;
+}
+#tools .wrapper .row .logos1 {
+  display: flex;
+  justify-content: space-between;
+}
+#tools .wrapper .row .logos1 div {
+  position: relative;
+}
+#tools .wrapper .row .logos1 div img {
+  position: relative;
+  z-index: 999;
+}
+#tools .wrapper .row .logos1 div aside {
+  font-size: 15px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 80px;
+  padding-right: 25px;
+  position: relative;
+  top: -58px;
+  background-color: #1d2252;
+  border-radius: 30px;
+  border: 1px solid #5700e2;
+}
+#tools .wrapper .row .logos1 img {
+  width: 60px;
+}
+#tools .wrapper .row .logos2 {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+#tools .wrapper .row .logos2 div {
+  position: relative;
+}
+#tools .wrapper .row .logos2 div img {
+  position: relative;
+  z-index: 999;
+}
+#tools .wrapper .row .logos2 div aside {
+  font-size: 15px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 80px;
+  padding-right: 25px;
+  position: relative;
+  top: -58px;
+  background-color: #1d2252;
+  border-radius: 30px;
+  border: 1px solid #5700e2;
+}
+#tools .wrapper .row .logos2 img {
+  width: 60px;
+}
+#tools .wrapper .row .logos3 {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+#tools .wrapper .row .logos3 div {
+  position: relative;
+}
+#tools .wrapper .row .logos3 div img {
+  position: relative;
+  z-index: 999;
+}
+#tools .wrapper .row .logos3 div aside {
+  font-size: 15px;
+  text-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  padding-left: 80px;
+  padding-right: 25px;
+  position: relative;
+  top: -58px;
+  background-color: #1d2252;
+  border-radius: 30px;
+  border: 1px solid #5700e2;
+}
+#tools .wrapper .row .logos3 img {
+  width: 60px;
+}
+
+#versatile {
+  background: url(../images/we-offer-vibrant-design-BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#versatile .wrapper {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+#versatile .wrapper h4 {
+  position: relative;
+  left: 70px;
+  top: 55px;
+  color: #5700e2;
+  font-size: 100px;
+  font-weight: 600;
+}
+#versatile .wrapper div {
+  justify-content: space-between;
+}
+#versatile .wrapper h5 {
+  position: relative;
+  font-family: "Ananda", serif;
+  color: white;
+  font-size: 75px;
+  font-weight: 400;
+  top: 40px;
+}
+#versatile .wrapper h3 {
+  position: relative;
+  font-family: "Couraged", serif;
+  color: white;
+  font-size: 150px;
+  font-weight: 500;
+  z-index: 999;
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+}
+#versatile .wrapper h2 {
+  color: transparent;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 220px;
+  font-weight: 700;
+  position: relative;
+  left: 32%;
+  bottom: 110px;
 }/*# sourceMappingURL=style.css.map */

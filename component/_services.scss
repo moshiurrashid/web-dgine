@@ -6,31 +6,38 @@
   .servicesWrapper {
     position: relative;
     padding-top: 115px;
+    padding-bottom: 200px;
     .left {
-      position: sticky;
-      top: 150px;
+      .title_left {
+        position: sticky;
+        top: 150px;
 
-      h2 {
-        color: white;
-        font-size: 40px;
-        font-weight: 700;
-        width: 556px;
-        span {
-          color: #b586ff;
+        h2 {
+          color: white;
+          font-size: 40px;
+          font-weight: 700;
+          width: 556px;
+          span {
+            color: #b586ff;
+          }
         }
         hr {
           width: 560px;
-          border: 1px solid #5700e2;
+          border: none;
+          height: 1px;
+          background: linear-gradient(90deg, #5700e2, #a300d3);
+          // border: 1px solid linear-gradient(90deg, #5700e2, #a300d3);
+          opacity: 1;
         }
         p {
           color: #e2e8f0;
-          font-size: 20px;
+          font-size: 17px;
         }
       }
     }
     .right {
       justify-content: right;
-      padding-bottom: 200px;
+
       .card1 {
         @include card_design;
         position: sticky;
