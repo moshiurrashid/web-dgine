@@ -2,6 +2,8 @@
 @font-face {
   font-family: Ananda;
   src: url(../font/AnandaPersonalUse.ttf);
+}
+@font-face {
   font-family: Couraged;
   src: url(../font/Couraged.ttf);
 }
@@ -201,7 +203,7 @@ header nav .hireUs {
   font-size: 17px;
   color: #e2e8f0;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   width: 556px;
 }
 #services .servicesWrapper .right .card1::after {
@@ -250,7 +252,7 @@ header nav .hireUs {
   font-size: 17px;
   color: #e2e8f0;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   width: 556px;
 }
 #services .servicesWrapper .right .card2::after {
@@ -299,7 +301,7 @@ header nav .hireUs {
   font-size: 17px;
   color: #e2e8f0;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   width: 556px;
 }
 #services .servicesWrapper .right .card3::after {
@@ -348,7 +350,7 @@ header nav .hireUs {
   font-size: 17px;
   color: #e2e8f0;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   width: 556px;
 }
 #services .servicesWrapper .right .card4::after {
@@ -397,7 +399,7 @@ header nav .hireUs {
   font-size: 17px;
   color: #e2e8f0;
   font-weight: 500;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   width: 556px;
 }
 #services .servicesWrapper .right .card5::after {
@@ -455,7 +457,7 @@ header nav .hireUs {
   text-align: center;
   color: #e2e8f0;
   font-size: 17px;
-  width: 640px;
+  width: 880px;
 }
 #tools .wrapper .row .logos1 {
   display: flex;
@@ -478,7 +480,7 @@ header nav .hireUs {
   padding-left: 80px;
   padding-right: 25px;
   position: relative;
-  top: -58px;
+  top: -60px;
   background-color: #1d2252;
   border-radius: 30px;
   border: 1px solid #5700e2;
@@ -508,7 +510,7 @@ header nav .hireUs {
   padding-left: 80px;
   padding-right: 25px;
   position: relative;
-  top: -58px;
+  top: -60px;
   background-color: #1d2252;
   border-radius: 30px;
   border: 1px solid #5700e2;
@@ -538,7 +540,7 @@ header nav .hireUs {
   padding-left: 80px;
   padding-right: 25px;
   position: relative;
-  top: -58px;
+  top: -60px;
   background-color: #1d2252;
   border-radius: 30px;
   border: 1px solid #5700e2;
