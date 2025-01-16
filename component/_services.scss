@@ -1,10 +1,10 @@
 #services {
   background-color: #000120;
-  position: relative;
-  z-index: -999;
+  // position: relative;
+  // z-index: -999;
 
   .servicesWrapper {
-    position: relative;
+    // position: relative;
     padding-top: 115px;
     padding-bottom: 200px;
     .left {
@@ -15,13 +15,15 @@
         h2 {
           color: white;
           font-size: 40px;
-          font-weight: 700;
+          font-weight: 600;
           width: 556px;
           span {
             color: #b586ff;
           }
         }
         hr {
+          margin-bottom: 13px;
+          margin-top: 10px;
           width: 560px;
           border: none;
           height: 1px;
@@ -36,7 +38,7 @@
       }
     }
     .right {
-      justify-content: right;
+      // justify-content: right;
 
       .card1 {
         @include card_design;

@@ -142,11 +142,8 @@ header nav .hireUs {
 
 #services {
   background-color: #000120;
-  position: relative;
-  z-index: -999;
 }
 #services .servicesWrapper {
-  position: relative;
   padding-top: 115px;
   padding-bottom: 200px;
 }
@@ -157,13 +154,15 @@ header nav .hireUs {
 #services .servicesWrapper .left .title_left h2 {
   color: white;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   width: 556px;
 }
 #services .servicesWrapper .left .title_left h2 span {
   color: #b586ff;
 }
 #services .servicesWrapper .left .title_left hr {
+  margin-bottom: 13px;
+  margin-top: 10px;
   width: 560px;
   border: none;
   height: 1px;
@@ -174,14 +173,11 @@ header nav .hireUs {
   color: #e2e8f0;
   font-size: 17px;
 }
-#services .servicesWrapper .right {
-  justify-content: right;
-}
 #services .servicesWrapper .right .card1 {
-  position: relative;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 150px;
 }
@@ -227,10 +223,10 @@ header nav .hireUs {
   width: 50px;
 }
 #services .servicesWrapper .right .card2 {
-  position: relative;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 200px;
 }
@@ -276,10 +272,10 @@ header nav .hireUs {
   width: 50px;
 }
 #services .servicesWrapper .right .card3 {
-  position: relative;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 250px;
 }
@@ -325,10 +321,10 @@ header nav .hireUs {
   width: 50px;
 }
 #services .servicesWrapper .right .card4 {
-  position: relative;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 300px;
 }
@@ -374,10 +370,10 @@ header nav .hireUs {
   width: 50px;
 }
 #services .servicesWrapper .right .card5 {
-  position: relative;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
   position: sticky;
   top: 350px;
 }
@@ -434,7 +430,7 @@ header nav .hireUs {
   margin: 0 auto;
   color: white;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
   width: 745px;
   padding-bottom: 10px;
   text-align: center;
@@ -557,7 +553,7 @@ header nav .hireUs {
 }
 #versatile .wrapper {
   padding-top: 160px;
-  padding-bottom: 160px;
+  padding-bottom: 60px;
 }
 #versatile .wrapper h4 {
   position: relative;
@@ -593,8 +589,191 @@ header nav .hireUs {
   -webkit-background-clip: text;
           background-clip: text;
   font-size: 220px;
+  display: inline-block;
   font-weight: 700;
   position: relative;
   left: 32%;
   bottom: 110px;
+}
+
+#contact {
+  background-color: #000120;
+}
+#contact .ellipse {
+  position: relative;
+}
+#contact .ellipse .ellipse3 {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+  filter: blur(20px);
+}
+#contact .wrapper {
+  padding-top: 150px;
+  padding-bottom: 170px;
+}
+#contact .wrapper .left {
+  position: sticky;
+  top: 150px;
+}
+#contact .wrapper .left h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+#contact .wrapper .left h2 span {
+  color: #b586ff;
+}
+#contact .wrapper .left hr {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  width: 400px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  opacity: 1;
+}
+#contact .wrapper .left p {
+  color: #e2e8f0;
+  font-size: 17px;
+  width: 510px;
+}
+#contact .wrapper .right form {
+  position: relative;
+  z-index: 999;
+  padding: 35px 40px 40px 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(226, 232, 240, 0.2);
+  box-shadow: inset 0px 0px 50px 10px rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+#contact .wrapper .right form h3 {
+  padding-bottom: 20px;
+  color: transparent;
+  font-size: 35px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+#contact .wrapper .right form p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #e2e8f0;
+  padding-bottom: 20px;
+}
+#contact .wrapper .right form .data {
+  margin-bottom: 23px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(13, 14, 43, 0.5);
+  width: 100%;
+  padding: 15px 0;
+  padding-left: 15px;
+  outline-color: #5700e2;
+}
+#contact .wrapper .right form .data::-moz-placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#contact .wrapper .right form .data::placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#contact .wrapper .right form .radio {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 20px;
+}
+#contact .wrapper .right form .radio h5 {
+  font-size: 20px;
+  padding-left: 15px;
+  font-weight: 600;
+  color: transparent;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+#contact .wrapper .right form .message {
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 150px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(13, 14, 43, 0.5);
+  outline-color: #5700e2;
+  margin-bottom: 23px;
+}
+#contact .wrapper .right form .message::-moz-placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#contact .wrapper .right form .message::placeholder {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#contact .wrapper .right form button {
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 65px;
+  border: none;
+  border-radius: 0px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  margin-left: auto;
+}
+#contact .wrapper .right form .ellipse1 {
+  position: absolute;
+  z-index: -1;
+  left: -65px;
+  bottom: 5%;
+}
+#contact .wrapper .right form .ellipse2 {
+  position: absolute;
+  z-index: -1;
+  top: 60%;
+  transform: translateY(-50%);
+  right: -58px;
+}
+
+#portfolio {
+  background-color: #0e112c;
+}
+#portfolio .wrapper {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#portfolio .wrapper .title h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  width: 1000px;
+  padding-bottom: 10px;
+}
+#portfolio .wrapper .title h2 span {
+  color: #b586ff;
+}
+#portfolio .wrapper .title hr {
+  margin: 0 auto;
+  width: 900px;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, #5700e2, #a300d3);
+  opacity: 1;
+}
+#portfolio .wrapper .title p {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 13px;
+  padding-bottom: 55px;
+  width: 835px;
 }/*# sourceMappingURL=style.css.map */

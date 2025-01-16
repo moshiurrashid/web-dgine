@@ -48,10 +48,12 @@ body {
   border: 2px solid #5700e2;
 }
 @mixin card_design {
-  position: relative;
+  // position: relative;
+  // top: 0;
   border-radius: 0 0 0 50px;
   padding-left: 35px;
   background: linear-gradient(42deg, #0e112a, #1d2252);
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.25);
 
   img {
     padding-top: 56px;
@@ -73,7 +75,6 @@ body {
     padding-bottom: 40px;
     width: 556px;
   }
-
   &::after {
     content: "";
     position: absolute;
