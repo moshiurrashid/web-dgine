@@ -31,11 +31,12 @@ body {
 }
 
 header {
-  background-color: rgba(0, 1, 32, 0.8);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  background-color: rgba(0, 1, 32, 0.6);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
   position: fixed;
   width: 100%;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.15);
 }
 header nav img {
   width: 225px;
@@ -44,7 +45,22 @@ header nav img {
 }
 header nav ul {
   display: flex;
-  gap: 85px;
+  gap: 55px;
+}
+header nav ul li {
+  position: relative;
+}
+header nav ul li:hover img {
+  filter: blur(15px);
+  width: 50px;
+}
+header nav ul li img {
+  width: 0px;
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.2s;
 }
 header nav ul li a {
   text-decoration: none;
